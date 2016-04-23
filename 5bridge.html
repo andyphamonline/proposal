@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Bridge</title>
+</head>
+
+<body id="open">
+
+    <div class="wrapper">
+        
+        <header class="clearfix">
+            <h1 class="h1_clue">Clue #5</h1>
+        </header>
+
+        <img id="img_restaurant" src="pictures/album_index.jpg">
+
+        <main class="clue clearfix">
+            <h2>Well done</h2>
+            <p>I won't have to give you the address for it. It's our first date.</p>
+        
+            <form name="password">
+                <span>Password</span>
+                <input type="password" name="pswrd"/>
+                <br>
+                <input type="button" onclick="check(this.form)" value="Submit"/>
+            </form>
+            <script language="javascript">
+                function check(form) { 
+                    if(form.pswrd.value == "1") {
+                        window.location="#";
+                    }
+                    else {
+                        alert("Incorrected password")
+                    }
+                }
+            </script>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+@import url(http://fonts.googleapis.com/css?family=Inknut+Antiqua:800);
+
+*{box-sizing: border-box;
+margin: 0;
+padding:0;}
+
+.clearfix:after {
+content: ".";
+visibility: hidden;
+display: block;
+height: 0;
+clear: both;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+a {
+	background: #BA95CF;
+	border: solid #654B7F;
+	border-radius: 17em;
+	display: inline-block;
+	font-size: 1.2em;
+	letter-spacing: .1em;
+	padding: .2em;
+	margin: .7em;
+	text-decoration: none;
+}
+
+h1 {
+	color: #ff00ff;
+	font-size: 2.8em;
+	line-height: 1.4em;
+	padding: .2em .2em 0 .2em;
+}
+
+h2 {
+	color: #FF69B4;
+	font-size: 2em;
+}
+
+input[type="button"]{
+	background: #BA95CF;
+	border: solid #654B7F;
+	border-radius: 30px;
+	color: #542089;
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 1.4em;
+	padding: 0 .5em;
+	-webkit-appearance: none;
+	/*width: 90px;*/
+}
+
+input[type="password"]{
+	height: 2em;
+}
+
+p {
+	font-size: 1.3em;
+	line-height: 1.5em;
+	padding: 0 .5em;
+}
+
+main {
+	position: relative;
+}
+
+span {
+	font-size: 1.5em;
+}
+
+.album_open {
+	left: 46%;
+	top: 31%;
+}
+
+.h1_clue {
+	padding-top: 2em;
+}
+
+.index {
+	height: 350px;
+	margin-top: 20.5em;
+}
+
+.clue {
+	height: 350px;
+	margin-top: 23.5em;
+}
+
+.wrapper {
+	background-color: rgba(255, 255, 255, .55);
+	width: 100%;
+	position: relative;
+}
+
+#img_index {
+	position: fixed;
+	left: 46%;
+	top: 31%;
+	width: 28%;
+}
+
+#img_restaurant {
+	position: fixed;
+	left: 40%;
+	top: 37%;
+	width: 28%;
+}
+
+#close {
+	background: url('pictures/close_375_500.jpg') no-repeat top center fixed;
+	background-size: cover;
+	height: 100%;
+}
+
+#open {
+	background: url('pictures/open_375_500.jpg') no-repeat top center fixed;
+	background-size: cover;
+	height: 100%;
+}
+
+

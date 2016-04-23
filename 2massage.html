@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Massage</title>
+</head>
+
+<body id="open">
+
+    <div class="wrapper">
+        
+        <header class="clearfix">
+            <h1 class="h1_clue">Clue #2</h1>
+        </header>
+
+        <img id="img_restaurant" src="pictures/album_index.jpg">
+
+        <main class="clue clearfix">
+            <h2>Hooray!!! You did it!</h2>
+            <p>The next place is your 2nd most favorite thing to do. Here's the address. ???????????????????????????????. Drive there and enjoy it. Someone will give you the password after you are done. </p>
+        
+            <form name="password">
+                <span>Password</span>
+                <input type="password" name="pswrd"/>
+                <br>
+                <input type="button" onclick="check(this.form)" value="Submit"/>
+            </form>
+            <script language="javascript">
+                function check(form) { 
+                    if(form.pswrd.value == "1") {
+                        window.location="3carica.html";
+                    }
+                    else {
+                        alert("Incorrected password")
+                    }
+                }
+            </script>
+    </div>
+
+</body>
+
+</html>
