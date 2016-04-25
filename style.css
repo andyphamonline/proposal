@@ -85,17 +85,14 @@ span {
 	padding-top: 2em;
 }
 
-.index {
-	height: 350px;
-	margin-top: 20.5em;
-}
-
-.clue {
-	height: 350px;
-	margin-top: 23.5em;
+.content {
+	/*height: 350px;*/
+	margin-top: 250px;
+	/*margin-top: 20.5em;*/
 }
 
 .wrapper {
+	height: 100vh;
 	background-color: rgba(255, 255, 255, .55);
 	width: 100%;
 	position: relative;
