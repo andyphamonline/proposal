@@ -57,14 +57,15 @@ input[type="button"]{
 	color: #542089;
 	font-family: 'Inknut Antiqua', serif;
 	font-size: 1.4em;
-	padding: 0 .5em;
+	/*padding: 0 .5em;*/
 	-webkit-appearance: none;
-	/*width: 90px;*/
+	width: 90px;
+	border: 1px solid blue;
 }
 
 input[type="password"]{
 	color: black;
-	height: 2em;
+	/*height: 2em;*/
 }
 
 .password {
