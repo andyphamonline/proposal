@@ -1,8 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Inknut+Antiqua:800);
 
-*{box-sizing: border-box;
-margin: 0;
-padding:0;}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+	color: white;
+
+}
 
 .clearfix:after {
 content: ".";
@@ -35,14 +39,14 @@ a {
 }
 
 h1 {
-	color: #ff00ff;
+	color: #FBC5D8;
 	font-size: 2.8em;
 	line-height: 1.4em;
 	padding: .2em .2em 0 .2em;
 }
 
 h2 {
-	color: #FF69B4;
+	color: #FCD9E5;
 	font-size: 2em;
 }
 
@@ -59,7 +63,13 @@ input[type="button"]{
 }
 
 input[type="password"]{
+	color: black;
 	height: 2em;
+}
+
+.password {
+	padding: 14px;
+	/*border: 1px solid red;*/
 }
 
 p {
@@ -87,30 +97,26 @@ span {
 
 .content {
 	/*height: 350px;*/
-	margin-top: 210px;
+	margin-top: 160px;
 	/*margin-top: 20.5em;*/
 }
 
 .wrapper {
 	height: 100vh;
-	background-color: rgba(255, 255, 255, .55);
+	background-color: rgba(0, 0, 0, .5);
 	width: 100%;
 	position: relative;
 }
 
-#img_index {
-	position: fixed;
-	left: 40%;
-	top: 32%;
-	width: 28%;
-	margin: 0;
-}
 
-#img_restaurant {
+.img-andy {
 	position: fixed;
-	left: 40%;
+	left: 50%;
 	top: 32%;
-	width: 28%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+	border: 1px solid white;
+	/*border-radius: 10px;*/
 }
 
 #close {
