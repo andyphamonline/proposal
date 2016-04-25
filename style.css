@@ -87,7 +87,7 @@ span {
 
 .content {
 	/*height: 350px;*/
-	margin-top: 250px;
+	margin-top: 210px;
 	/*margin-top: 20.5em;*/
 }
 
@@ -100,15 +100,16 @@ span {
 
 #img_index {
 	position: fixed;
-	left: 46%;
-	top: 31%;
+	left: 40%;
+	top: 32%;
 	width: 28%;
+	margin: 0;
 }
 
 #img_restaurant {
 	position: fixed;
 	left: 40%;
-	top: 37%;
+	top: 32%;
 	width: 28%;
 }
 
