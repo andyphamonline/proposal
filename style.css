@@ -86,7 +86,7 @@ main {
 }
 
 span {
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 .album_open {
@@ -119,8 +119,7 @@ span {
 	top: 32%;
 	transform: translate(-50%, -50%);
 	width: 40%;
-	border: 1px solid white;
-	/*border-radius: 10px;*/
+	border: 1px solid #FFC0CB;
 }
 
 #close {
